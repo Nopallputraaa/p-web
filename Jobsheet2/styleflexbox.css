@@ -1,0 +1,40 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color: #ddd;
+    line-height: 1.65; 
+    padding-bottom: 1000px;
+    background: linear-gradient(to bottom right, purple,white );
+}
+
+.container-satu{
+    width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-sizing:border-box;
+    display: flex;
+}
+
+.kolom-utama   {
+    order: 2;
+    flex: 2;
+    margin-right: 20px;
+}
+
+.sidebar-dua{
+    order: 3;
+    flex: 1;
+    background-color: aliceblue;
+}
+
+.sidebar-satu{
+    order: 1;
+    flex: 1;
+    margin-right: 10px;
+    background-color: aliceblue;
+}

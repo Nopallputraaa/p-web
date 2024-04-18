@@ -1,0 +1,188 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 400;
+    color: #141414;
+}
+
+.flex {
+    display: flex;
+    gap: 14px;
+}
+
+.flex.flex-col {
+    flex-direction: column;
+    gap: 16px;
+}
+
+.flex.justify-between {
+    justify-content: space-between;
+}
+
+.flex.items-center {
+    align-items: center;
+}
+
+.container {
+    padding: 32px 40px;
+}
+
+/* Text Styles */
+.text-title {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Card Styles */
+.card {
+    width: fit-content;
+    background-color: white;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card.card-sm {
+    width: 24%;
+}
+
+.card.card-full {
+    width: 100%;
+}
+
+.card .card-header {
+    background-color: whitesmoke;
+    padding: 8px 14px;
+}
+
+.card .card-header .card-title {
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.card .card-body {
+    padding: 20px 24px;
+}
+
+/* Form Styles */
+.form-groups {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.form-groups .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.form-groups .form-group .form-label {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.form-groups .form-group .form-input {
+    padding: 16px 16px;
+    font-size: 14px;
+    border: 1px solid #9ca3af;
+    border-radius: 8px;
+}
+
+.form-groups .form-select {
+    padding: 14px 16px;
+    font-size: 14px;
+    background-color: transparent;
+    border: 1px solid #9ca3af;
+    border-radius: 8px;
+}
+
+/* Button Styles */
+.btn {
+    padding: 20px 16px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn.btn-sm {
+    padding: 14px 16px;
+}
+
+.btn.btn-primary {
+    background-color: #3b82f6;
+    border: none;
+    color: white;
+}
+
+.btn.btn-success {
+    background-color: #16a34a;
+    border: none;
+    color: white;
+}
+
+.btn.btn-danger {
+    background-color: #dc2626;
+    border: none;
+    color: white;
+}
+
+.btn.btn-primary:hover {
+    background-color: #2563eb;
+}
+
+.btn.btn-success:hover {
+    background-color: #15803d;
+}
+
+.btn.btn-danger:hover {
+    background-color: #b91c1c;
+}
+
+/* Navbar Styles */
+.navbar {
+    padding: 0px 32px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 24px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.navbar .navbar-title {
+    width: 10%;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.navbar .navbar-left-items {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.navbar .navbar-right-items {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 32px;
+}
+
+.navbar .navbar-left-items li, .navbar .navbar-right-items li {
+    list-style: none;
+}
+
+.navbar .navbar-left-items li a, .navbar .navbar-right-items li a {
+    text-decoration: none;
+    color: gray;
+}

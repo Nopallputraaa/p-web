@@ -1,0 +1,36 @@
+.todo-content {
+    display: flex;
+    gap: 72px;
+}
+
+.todo-content .todo-left-content, .todo-content .todo-right-content {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.todo-title {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.todo-subtitle, .todo-status-completed, .todo-status-notcompleted {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.todo-subtitle {
+    color: gray;
+}
+
+.todo-status-completed {
+    color: #16a34a;
+}
+
+.todo-status-notcompleted {
+    color: #dc2626;
+}
